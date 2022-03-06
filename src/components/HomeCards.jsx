@@ -60,7 +60,7 @@ function HomeCards() {
       <div className='d-flex justify-content-center align-items-center'>
 
       <CardContainer>
-          {data.map((ele)=>{{
+          {data.map((ele)=>{
             return <Card key = {ele.title}>
               <div className='d-flex gap-3 align-items-center'>
                 {/* <Image background={ele.img}></Image> */}
@@ -71,7 +71,7 @@ function HomeCards() {
                 <p className='m-0 p-0'>{ele.para}</p>
               </div>
             </Card>            
-          }})}
+          })}
       </CardContainer>
           </div>
     </Container>
