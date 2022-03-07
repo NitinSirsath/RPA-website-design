@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import home from '../assets/homebg.jpeg'
 import home2 from '../assets/homebg2.jpeg'
 import home3 from '../assets/homebg3.jpeg'
+import HomeCardBusiness from '../components/HomeCardBusiness';
 
 
 const Container = styled.div`
@@ -104,6 +105,7 @@ const Home = ({companyname}) => {
         </Home3>
         <HomeCards />
         <Whoarewe />
+        <HomeCardBusiness />
     </Container>   
   )
 }

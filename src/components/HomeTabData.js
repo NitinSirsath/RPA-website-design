@@ -1,4 +1,4 @@
-import logistics from '../assets/icons/logistics.png'
+import logistics from '../assets/icons/delivery.png'
 import manufacturing from '../assets/icons/manufacturing.png'
 import healthcare from '../assets/icons/healthcare.png'
 import finance from '../assets/icons/finance.png'
