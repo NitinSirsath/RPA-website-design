@@ -2,7 +2,10 @@ import React from 'react'
 import styled from 'styled-components'
 import aboutbanner from '../assets/about-rpa-banner-bg.jpeg'
 import aboutHomebg2 from '../assets/about-rpa-homebg2.jpeg'
+import aboutbg3 from '../assets/about-rpa-bg3.jpeg'
 import AboutRPAWork from '../components/AboutRPAWork'
+import AboutRPACard from '../components/AboutRPACard'
+import AboutRPAfeatures from '../components/AboutRPAfeatures'
 
 
 const Container = styled.div`
@@ -41,6 +44,26 @@ const Home2right =styled.div`
   flex: 0.4;
   padding: 100px 30px;
 `
+const Aboutbg3 = styled.div`
+ display: flex;
+  @media only screen and (max-width: 800px) {
+        display: flex;
+    flex-direction: column;
+   
+    }
+  
+`
+const Aboutbg3Left = styled.div`
+  flex: 0.6;
+   background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.4)), url(${props => props.background});
+`
+const Aboutbg3Right = styled.div`
+  flex: 0.4;
+  padding: 100px 70px;
+`
 
 const AboutRPA = ({companyname}) => {
   return (
@@ -63,6 +86,18 @@ const AboutRPA = ({companyname}) => {
             </Home2right>
         </HomeBg2>
         <AboutRPAWork />
+        <Aboutbg3>
+            <Aboutbg3Left background={aboutbg3}>1
+            </Aboutbg3Left>
+            <Aboutbg3Right className='bg-light'>
+                <h1>Empowering teams with <br /> RPA</h1>
+                <p className='my-4'>RPA is intuitive and very easy to work with. It doesn’t require special knowledge from teams or executive officers, but it does offer a vast array of options, such as the ability to schedule, duplicate and share custom workflows across the organization.</p>
+                <p className='my-4'>The result? Employees with freed up time and attention, ready to focus on what they do best, while in the background, a powerful digital workforce takes care of the most cumbersome processes.</p>
+                <p className=''>RPA is a smart solution, using the capabilities of machine learning and artificial intelligence to power automation. It doesn’t replace people. Instead, it takes on tasks no one enjoys, and allows human employees to deliver their unique value.</p>
+            </Aboutbg3Right>
+        </Aboutbg3>
+        <AboutRPACard />
+        <AboutRPAfeatures />
       
     </Container>
   )

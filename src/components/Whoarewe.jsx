@@ -62,10 +62,10 @@ background-color: #ffffff;
 const Link = styled.span`
   border-bottom: 1px solid black;
   font-weight: bold;
-  color: #6b6a6a;
+  color: #127de0;
 
   &:hover{
-    color: red;
+    color: #dc3545;
   }
 `
 const Title = styled.span`

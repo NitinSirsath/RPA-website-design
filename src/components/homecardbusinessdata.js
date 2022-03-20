@@ -1,6 +1,6 @@
 import select from '../assets/icons/select.png'
 import automate from '../assets/icons/automate.png'
-import rocket from '../assets/icons/rocket.png'
+import rocket from '../assets/icons/rocket2.png'
 
 const data = [
     {
