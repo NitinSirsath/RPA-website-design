@@ -19,13 +19,13 @@ function App() {
         {/* <Navbar /> */}
       <DefaultLayout >
       <Routes>
-          <Route path='/' element={<Home companyname={'Companyname'} />} exact />
-          <Route path='/aboutrpa' element={<AboutRPA companyname={'Companyname'} />} exact />
+          <Route path='/' element={<Home companyname={'Ajna Tech'} />} exact />
+          <Route path='/aboutrpa' element={<AboutRPA companyname={'Ajna Tech'} />} exact />
           <Route path='/products' element={<Products />} exact />
           <Route path='/solutions' element={<Solutions />} exact /> 
           <Route path='/resources' element={<Resources />} exact />
-          <Route path='/aboutus' element={<AboutUS companyname={'Companyname'} />} exact />
-          <Route path='/contactus' element={<ContactUS companyname={'Companyname'} />} exact />
+          <Route path='/aboutus' element={<AboutUS companyname={'Ajna Tech'} />} exact />
+          <Route path='/contactus' element={<ContactUS companyname={'Ajna Tech'} />} exact />
         </Routes>
       </DefaultLayout>
        {/* <Footer /> */}
