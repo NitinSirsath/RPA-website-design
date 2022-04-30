@@ -64,14 +64,14 @@ export const Heading = styled.p`
   }
 `;
 
-function Footer({companyname}) {
+function Footer() {
   return (
       <div>
            <Box>
       <h1 style={{ color: "grey", 
                    textAlign: "center", 
                    marginTop: "-50px" }}>
-        {companyname}
+       
       </h1>
       <Container>
         <Row>
